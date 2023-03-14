@@ -8,6 +8,14 @@
     <artifactId>effective-java-part2</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <dependencies>
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>name-service</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
