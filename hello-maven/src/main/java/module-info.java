@@ -1,0 +1,2 @@
+module me.whiteship.hello {
+}
